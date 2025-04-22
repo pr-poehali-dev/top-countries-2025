@@ -22,21 +22,21 @@ const CountryCard: React.FC<CountryProps> = ({
   flag,
 }) => {
   const getRankColor = (rank: number) => {
-    if (rank === 1) return "bg-rank-1";
-    if (rank === 2) return "bg-rank-2";
-    if (rank === 3) return "bg-rank-3";
-    return "bg-rank-default";
+    if (rank === 1) return "bg-amber-500 text-black";
+    if (rank === 2) return "bg-gray-300 text-black";
+    if (rank === 3) return "bg-amber-700 text-white";
+    return "bg-slate-700 text-white";
   };
 
   return (
-    <Card className="country-card" style={{ animationDelay: `${rank * 0.1}s` }}>
-      <div className={`rank-badge ${getRankColor(rank)}`}>
+    <Card className="country-card h-full hover:shadow-lg transition-shadow duration-300">
+      <div className={`rank-badge absolute -top-3 -left-3 rounded-full w-10 h-10 flex items-center justify-center font-bold ${getRankColor(rank)} shadow-md`}>
         {rank}
       </div>
-      <CardHeader className="pb-2">
+      <CardHeader className="pb-2 pt-6">
         <div className="flex items-center gap-3">
-          <div className="text-2xl font-bold">{flag}</div>
-          <CardTitle>{name}</CardTitle>
+          <div className="text-4xl">{flag}</div>
+          <CardTitle className="text-xl">{name}</CardTitle>
         </div>
       </CardHeader>
       <CardContent>

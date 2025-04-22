@@ -104,7 +104,11 @@ const Index = () => {
           subtitle="Рейтинг военной и экономической мощи на 0.4 апреля 2025 года"
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+        <p className="text-center mb-8 max-w-2xl mx-auto">
+          Данный рейтинг отражает военную мощь, экономическое влияние и геополитический статус ведущих мировых держав на начало апреля 2025 года.
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
           {countriesData.map((country) => (
             <div className="animate-fade-in" key={country.rank} style={{ animationDelay: `${country.rank * 0.1}s` }}>
               <CountryCard
@@ -121,7 +125,8 @@ const Index = () => {
         </div>
 
         <footer className="mt-20 text-center text-sm text-muted-foreground">
-          <p>Данные актуальны на апрель 2025 года. Рейтинг учитывает военную мощь, экономическое влияние и геополитический статус.</p>
+          <p>Данные актуальны на 0.4 апреля 2025 года. Рейтинг учитывает военную мощь, экономическое влияние и геополитический статус.</p>
+          <p className="mt-2">© 2025 Глобальный аналитический центр</p>
         </footer>
       </div>
     </div>
