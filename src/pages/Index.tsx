@@ -11,7 +11,7 @@ const countriesData = [
     militaryPower: "Крупнейший в мире военный бюджет, передовые технологии",
     economicStrength: "Ведущая мировая экономика с развитым технологическим сектором",
     globalInfluence: "Высокое дипломатическое влияние через международные институты",
-    militaryImage: "https://images.unsplash.com/photo-1534724364700-9954d4378939?auto=format&fit=crop&w=800&q=80"
+    militaryImage: "https://images.unsplash.com/photo-1579912437766-7896df6d3cd6?auto=format&fit=crop&w=800&q=80"
   },
   {
     rank: 2,
@@ -21,7 +21,7 @@ const countriesData = [
     militaryPower: "Второй в мире ядерный арсенал, модернизированная армия",
     economicStrength: "Богатые природные ресурсы, энергетический сектор",
     globalInfluence: "Сильное влияние в постсоветском пространстве и на Ближнем Востоке",
-    militaryImage: "https://images.unsplash.com/photo-1517466121016-3f7e7107c756?auto=format&fit=crop&w=800&q=80"
+    militaryImage: "https://images.unsplash.com/photo-1556911261-6bd341186b2f?auto=format&fit=crop&w=800&q=80"
   },
   {
     rank: 3,
@@ -31,7 +31,7 @@ const countriesData = [
     militaryPower: "Крупнейшая действующая армия, модернизация флота",
     economicStrength: "Вторая по величине экономика, производственный центр",
     globalInfluence: "Растущее влияние через инициативу 'Пояс и путь'",
-    militaryImage: "https://images.unsplash.com/photo-1547483452-6a113574d365?auto=format&fit=crop&w=800&q=80"
+    militaryImage: "https://images.unsplash.com/photo-1605210057707-8b0eda18b4c1?auto=format&fit=crop&w=800&q=80"
   },
   {
     rank: 4,
@@ -41,7 +41,7 @@ const countriesData = [
     militaryPower: "Третья по величине армия, ядерный статус",
     economicStrength: "Быстрорастущая экономика, технологический сектор",
     globalInfluence: "Растущее влияние в Южной Азии и международных организациях",
-    militaryImage: "https://images.unsplash.com/photo-1596811102794-189d2ef64cb2?auto=format&fit=crop&w=800&q=80"
+    militaryImage: "https://images.unsplash.com/photo-1550697206-b8b0591876f0?auto=format&fit=crop&w=800&q=80"
   },
   {
     rank: 5,
@@ -51,7 +51,7 @@ const countriesData = [
     militaryPower: "Современные вооруженные силы, ядерное оружие",
     economicStrength: "Сильный финансовый сектор, развитая экономика",
     globalInfluence: "Постоянный член Совбеза ООН, влиятельная дипломатия",
-    militaryImage: "https://images.unsplash.com/photo-1579274958156-4af8122bc1cf?auto=format&fit=crop&w=800&q=80"
+    militaryImage: "https://images.unsplash.com/photo-1506323883793-a7f187d7d9e6?auto=format&fit=crop&w=800&q=80"
   },
   {
     rank: 6,
@@ -61,7 +61,7 @@ const countriesData = [
     militaryPower: "Высокотехнологичные вооруженные силы, современные вооружения",
     economicStrength: "Инновационная экономика, технологические гиганты",
     globalInfluence: "Культурное и экономическое влияние в Азии",
-    militaryImage: "https://images.unsplash.com/photo-1624300694785-c87eb4e786a7?auto=format&fit=crop&w=800&q=80"
+    militaryImage: "https://images.unsplash.com/photo-1619464532639-e4228a22e359?auto=format&fit=crop&w=800&q=80"
   },
   {
     rank: 7,
@@ -81,7 +81,7 @@ const countriesData = [
     militaryPower: "Ядерное оружие, экспедиционные силы",
     economicStrength: "Развитая экономика, аэрокосмическая промышленность",
     globalInfluence: "Постоянный член Совбеза ООН, влияние в Африке",
-    militaryImage: "https://images.unsplash.com/photo-1551275073-f8adef647c1d?auto=format&fit=crop&w=800&q=80"
+    militaryImage: "https://images.unsplash.com/photo-1553276775-277a5ebdcb24?auto=format&fit=crop&w=800&q=80"
   },
   {
     rank: 9,
@@ -91,7 +91,7 @@ const countriesData = [
     militaryPower: "Современные силы самообороны, технологические преимущества",
     economicStrength: "Третья по величине экономика, технологические инновации",
     globalInfluence: "Экономическое влияние в Азии, союз с США",
-    militaryImage: "https://images.unsplash.com/photo-1574226516831-e1dff420e562?auto=format&fit=crop&w=800&q=80"
+    militaryImage: "https://images.unsplash.com/photo-1563802560775-445bfd3262fe?auto=format&fit=crop&w=800&q=80"
   },
   {
     rank: 10,
@@ -101,7 +101,7 @@ const countriesData = [
     militaryPower: "Крупнейшие вооруженные силы в Латинской Америке",
     economicStrength: "Крупнейшая экономика Латинской Америки, природные ресурсы",
     globalInfluence: "Региональный лидер, участник БРИКС",
-    militaryImage: "https://images.unsplash.com/photo-1620812067770-3c573a7bde42?auto=format&fit=crop&w=800&q=80"
+    militaryImage: "https://images.unsplash.com/photo-1514539079130-25950c84af65?auto=format&fit=crop&w=800&q=80"
   },
 ];
 
