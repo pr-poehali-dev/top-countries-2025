@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Globe, Shield, Landmark, Swords } from "lucide-react";
+import MilitaryImage from "@/components/MilitaryImage";
 
 interface CountryProps {
   rank: number;
@@ -10,6 +11,7 @@ interface CountryProps {
   economicStrength: string;
   globalInfluence: string;
   flag: string;
+  militaryImage: string;
 }
 
 const CountryCard: React.FC<CountryProps> = ({
@@ -20,6 +22,7 @@ const CountryCard: React.FC<CountryProps> = ({
   economicStrength,
   globalInfluence,
   flag,
+  militaryImage,
 }) => {
   const getRankColor = (rank: number) => {
     if (rank === 1) return "bg-amber-500 text-black";
@@ -30,15 +33,23 @@ const CountryCard: React.FC<CountryProps> = ({
 
   return (
     <Card className="country-card h-full hover:shadow-lg transition-shadow duration-300">
-      <div className={`rank-badge absolute -top-3 -left-3 rounded-full w-10 h-10 flex items-center justify-center font-bold ${getRankColor(rank)} shadow-md`}>
+      <div className={`rank-badge absolute -top-3 -left-3 rounded-full w-10 h-10 flex items-center justify-center font-bold ${getRankColor(rank)} shadow-md z-10`}>
         {rank}
       </div>
-      <CardHeader className="pb-2 pt-6">
+      
+      <MilitaryImage 
+        src={militaryImage} 
+        alt={`Военные силы ${name}`} 
+        className="mb-2"
+      />
+      
+      <CardHeader className="pb-2 pt-4">
         <div className="flex items-center gap-3">
           <div className="text-4xl">{flag}</div>
           <CardTitle className="text-xl">{name}</CardTitle>
         </div>
       </CardHeader>
+      
       <CardContent>
         <p className="text-sm text-muted-foreground mb-4">{description}</p>
         <div className="space-y-2">
@@ -56,6 +67,7 @@ const CountryCard: React.FC<CountryProps> = ({
           </div>
         </div>
       </CardContent>
+      
       <CardFooter className="pt-0">
         <div className="flex items-center gap-1">
           <Shield className="h-4 w-4 text-muted-foreground" />
